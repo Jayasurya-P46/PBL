@@ -1,0 +1,67 @@
+=============================
+AUTOMOTIVE AI PIPELINE V2
+=============================
+
+INPUT
+------
+RGB Camera
+
+↓
+
+MediaPipe
+
+↓
+
+21 Hand Landmarks
+
+↓
+
+Feature Engineering
+
+1. Normalized Coordinates (63)
+
+2. Finger Joint Angles
+
+3. Fingertip Distances
+
+4. Finger Curl
+
+5. Finger Spread
+
+6. Palm Orientation
+
+7. Hand Rotation
+
+↓
+
+Machine Learning Model
+
+(Random Forest)
+
+↓
+
+Confidence Score
+
+↓
+
+Temporal Filter
+
+↓
+
+Intent Engine
+
+↓
+
+Vehicle State Manager
+
+↓
+
+Safety Layer
+
+↓
+
+Arduino Controller
+
+↓
+
+Dashboard Hardware
